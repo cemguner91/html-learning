@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables And Forms</title>
+</head>
+<body>
+    <table border=1>   <!-- border ile tabloda çizgileri yaptık-->
+        <thead>
+            <th> İsim</th>
+            <th> Yaş</th>
+            <th> Cinsiyet</th>
+            <th> Maaş</th>
+
+        </thead>
+
+        <tr>
+            <td> Cem</td>
+            <td> 30</td>
+            <td> Erkek</td>
+            <td> 10.000$ </td>
+
+        </tr>
+        <tr>
+            <td> <a href="https://www.google.com"> Büşra</td> </a>
+            <td> 29</td>
+            <td> Kadın</td>
+            <td> 20.000$ </td>
+
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <form action="https://google.com">
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="nameInput">
+        <br>
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salaryInput">
+        <br>
+        <input type="submit">
+    </form>
+
+    <br><br><br>
+
+    <form action="https://google.com">
+        <label for="email"> E-mail:</label>
+        <input type="email" id="name" name="emailInput" placeholder="Enter Your E-mail">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="salary" name="passwordInput">
+        <br>
+        <input type="submit" value="Login">
+    </form>
+
+    <br><br><br>
+    <form action="https://google.com">
+        <p>Star Wars or Star Trek ?</p>
+        <label for="starwars"> Star Wars</label>
+        <input type="radio" id="starwars" name="movie" value="starwars">  <!-- name parametresine aynı ismi verirsek, ikisinden birini seçebiliriz.-->
+        <br>
+        <label for="startrek">Password:</label>
+        <input type="radio" id="startrek" name="movie" value="startrek">
+        <br>
+        <input type="submit" value="Choose">
+    </form>
+
+    <br><br><br>
+
+    <form action="https://google.com">
+        <p>Kaç Puan Verirsin</p>
+        <select name="rating" id="rating">
+            <option>5</option>
+            <option>4</option>
+            <option>3</option>
+            <option>2</option>
+            <option>1</option>
+            
+        </select>
+        <br>
+        <input type="submit" value="Choose"> 
+    </form>
+
+
+</body>
+</html>
