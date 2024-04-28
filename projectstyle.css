@@ -1,0 +1,36 @@
+h2 {
+    color: gold;
+    background-color: rgb(23, 22, 22);
+}
+
+h3 {
+    color: blueviolet;
+}
+
+p {
+    color: coral;
+    background-color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin-top: 1%;
+}
+
+div {
+    
+    background-color: black;
+}
+
+span {
+    background-color: rgb(143, 165, 206);
+}
+
+.lorem-div {    
+    background-color: rgb(181, 29, 110);
+}
+
+#myparagraph {
+
+    background-color: chartreuse;
+    color: aliceblue;
+    
+}
+
